@@ -10,7 +10,7 @@ spring:
           uri: https://github.com/Hilal2013/ticketing-project-microservices-config
           default-label: main
           username: Hilal2013
-          password: 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
+          password: '{cipher}3e35ee4f6df599d28a53df57b2a5356ba1a02b022d76bd09eacff3835a3e3137315c87bdc3a69395efca57a420e7139e8daedf262d54b2fe022b8c47416a65d6'
       fail-fast: true
 
 encrypt:
