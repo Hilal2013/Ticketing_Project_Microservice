@@ -2,13 +2,19 @@ spring:
   application:
     name: config-server
   profiles:
-    active: native
+    active: git
   cloud:
     config:
       server:
-        native:
-          search-locations: classpath:/config
+        git:
+          uri: https://github.com/Hilal2013/ticketing-project-microservices-config
+          default-label: main
+          username: Hilal2013
+          password: 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
+      fail-fast: true
 
+encrypt:
+  key: cydeo
 
 server:
   port: 8888
